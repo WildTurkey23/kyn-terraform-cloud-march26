@@ -1,4 +1,4 @@
-resource "aws_security_group" "priya2_sg" {
+resource "aws_security_group" "web_sg" {
   # ... other configuration ...
   ######allow ssh access from anywhere
   name   = "web-sg-priya"
